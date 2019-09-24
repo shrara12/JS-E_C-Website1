@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="./css/style.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>E-Commerce</title>
+</head>
+
+<body>
+
+  <!-- header start -->
+  <header>
+    <div class="custom-container">
+      <div class="flex-container-row top-bar">
+        <div class="left-nav">
+          <a href="/">
+            <div class="logo">
+              <span class="logo-bold">SHOP</span>LANE
+            </div>
+          </a>
+          <div class="nav-container flex-container-row">
+            <ul>
+              <a href="/">
+                <li class="nav-item">Clothing</li>
+              </a>
+              <a href="/">
+                <li class="nav-item">Accessories</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="search-container">
+          <div class="search-bar flex-container-row">
+            <i class="fa fa-search fa-2x" style="color: rgb(189, 189, 189); padding-left: 5px"></i>
+            <input type="text" name="search" id="search" placeholder="Search for Clothing and Accessories">
+          </div>
+        </div>
+        <div class="right-nav flex-container-row">
+          <a href="/checkout.html">
+            <div class="cart">
+              <div class="cart-icon">
+                <i class="fa fa-shopping-cart fa-2x" style="color: rgb(179, 179, 179)"></i>
+              </div>
+              <span class="item-count" id="cartCount"></span>
+            </div>
+          </a>
+          <div class="profile-pic">
+            <img src="https://s.cdpn.io/profiles/user/3402554/512.jpg?1564990706" alt="profile" style="width: 80px; height: 80;" class="avatar">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <section class="product-container" id="productContainer">
+    <main>
+      <div class="content">
+        <div class="col-1">
+          <img
+            src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg"
+            alt="" class="product-image" id="product-image">
+        </div>
+        <div class="col-2">
+          <div class="product-name">
+            <h1>FitBit-19 The Smartest Watch</h1>
+          </div>
+          <div class="product-brand">
+            <h2></h2>
+          </div>
+          <div class="product-desc">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+            </p>
+          </div>
+          <div class="product-color">
+            <div class="picker-container">
+              <h2>Select Color</h2>
+              <div class="color-container">
+
+              </div>
+            </div>
+          </div>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+    </main>
+  </section>
+
+  <footer>
+    <div class="flex-container-row ">
+      <div class="footer-container container">
+        <div class="footer-col">
+          <div class="footer-col-title">ONLINE STORE</div>
+          <div class="footer-col-body">
+            <ul>
+              <li class="footer-nav-item"><a href="#">men clothing</a></li>
+              <li class="footer-nav-item"><a href="#">women clothing</a></li>
+              <li class="footer-nav-item"><a href="#">men accessories</a></li>
+              <li class="footer-nav-item"><a href="#">women accessories</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">HELPFUL LINKS</div>
+          <ul>
+            <li class="footer-nav-item"><a href="#">home</a></li>
+            <li class="footer-nav-item"><a href="#">about</a></li>
+            <li class="footer-nav-item"><a href="#">contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">PARTNERS</div>
+          <ul>
+            <li class="footer-nav-item"><a href="#">zara</a></li>
+            <li class="footer-nav-item"><a href="#">pantaloons</a></li>
+            <li class="footer-nav-item"><a href="#">ucb</a></li>
+            <li class="footer-nav-item"><a href="#">levis</a></li>
+            <li class="footer-nav-item"><a href="#">+ many more</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">ADDRESS</div>
+          <p class="footer-col-address">
+            building no. 209 <br>
+            centeral ismailia <br>
+            ismailia - 41511 <br>
+            Egypt
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="edyoda-logo">
+    <img src="https://i.imgur.com/OKAY6Fl.png" alt="edyoda-logo" class="bottom-logo">
+   </div>
+
+  <script src="./js/product.js"></script>
+</body>
+
+</html>
